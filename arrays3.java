@@ -4,7 +4,7 @@ public class arrays3{
 	
 	public static void main(String[] args) {
 
-		System.out.println("the quick brown foxxy fox")
+		System.out.println("homebranch test")
 		
 		String[][] cities = new String[3][3];
 		
