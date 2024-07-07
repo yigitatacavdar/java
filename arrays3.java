@@ -3,6 +3,8 @@ package javaweb;
 public class arrays3{
 	
 	public static void main(String[] args) {
+
+		System.out.println("this is an updated file")
 		
 		String[][] cities = new String[3][3];
 		
