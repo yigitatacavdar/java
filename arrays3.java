@@ -4,7 +4,7 @@ public class arrays3{
 	
 	public static void main(String[] args) {
 
-		System.out.println("this is an updated file")
+		System.out.println("the quick brown foxxy fox")
 		
 		String[][] cities = new String[3][3];
 		
