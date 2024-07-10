@@ -1,4 +1,4 @@
-package javaweb;
+package productProject;
 
 public class product{
 	
@@ -8,5 +8,6 @@ public class product{
 	double price;
 	int stockAmount;
 	String color;
+	
 }
 
