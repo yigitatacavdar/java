@@ -1,3 +1,4 @@
+
 package productProject;
 
 public class product2{
@@ -8,5 +9,6 @@ public class product2{
 	double price;
 	int stockAmount;
 	String color;
+	
 }
 

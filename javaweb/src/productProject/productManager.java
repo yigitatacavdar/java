@@ -12,12 +12,31 @@ public class productManager{
 		 
 		if(idInput == Product.id) {
 			System.out.println("Product -> " + Product.name);
+			Scanner id1 = new Scanner(System.in);
+			 System.out.println("do you want description? 1- Yes or 2- No");
+			 int id1Input = id1.nextInt();
+			 if(id1Input == 1) {
+				 System.out.println(Product.description);
+			 }
+			 else {
+				 
+			 }
+			
 			System.out.println("---------------------");
 
 		}
 		
 		else if(idInput == Product2.id) {
-			System.out.println("Product -> " + Product2.name);
+			 System.out.println("Product -> " + Product2.name);
+			 Scanner id1 = new Scanner(System.in);
+			 System.out.println("do you want description? 1- Yes or 2- No");
+			 int id1Input = id1.nextInt();
+			 if(id1Input == 1) {
+				 System.out.println(Product2.description);
+			 }
+			 else {
+				 
+			 }
 			System.out.println("---------------------");
 
 			

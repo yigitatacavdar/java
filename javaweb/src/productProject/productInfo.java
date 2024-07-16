@@ -29,7 +29,6 @@ public class productInfo{
 		System.out.println("2 - Stock check");
 		Scanner obj = new Scanner(System.in);
 		int input = obj.nextInt();
-		
 		if(input == 1) {
 			ProductManager.idCheck(Product, Product2);
 		}
