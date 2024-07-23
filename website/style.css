@@ -1,0 +1,102 @@
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active  {
+  transition: background-color 5000s;
+  -webkit-text-fill-color: #fff !important;
+}
+
+
+body {
+    color:whitesmoke;
+    background:black;
+    text-align:center;
+}
+
+h1 {
+    color:yellow;
+    text-align: left;
+}
+
+hr {
+    background-color: yellow;
+}
+
+a {
+    color: yellow;
+}
+
+
+
+input[type=text] {
+  border-color:yellow;
+  border-radius: 6px;
+  background-color: black;
+  color: whitesmoke;
+  outline: none;
+  text-align: center;
+}
+
+
+input[type=text] {
+  border-color:yellow;
+  border-radius: 6px;
+  background-color: black;
+  color: whitesmoke;
+  outline: none;
+  text-align: center;
+}
+
+input[type=submit] {
+  border-color:yellow;
+  border-radius: 10px;
+  background-color: black;
+  color: yellow;
+  outline: none;
+  text-align: center;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 100px;
+    height: 588px;
+    background-color: goldenrod;
+    color: black;
+    box-sizing: border-box;
+    position: static;
+}
+
+.sidebar2 {
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    position: static;
+}
+
+.content {
+    flex: 1;
+    padding: 0px;
+    box-sizing: border-box;
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: left;
+}
+
+.sidebar a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    transition: background-color 0.3s;
+}
+
+/* Change background color on hover */
+.sidebar a:hover {
+    background-color: gold;
+}
+
+
